@@ -3,29 +3,29 @@
     padding: 0;
 }
 
-.header-container {
-    background-color: #000;
-    color: white;
-    width: 100%;
+.corpo {
+    width: 80%;
+    margin: 0px auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header {
-    background-color: black;
+    background-color: #1D3354;
     color: white;
-    width: 70%;
+    width: 100%;
     margin: auto;
     font-size: 12px;
     text-align: center;
 }
 
-.header img {
-    width: 300px;
-    margin-bottom: 30px;
+.header h1 {
+    font-size: 30;
+    padding: 15px; 
 }
 
 .header ul {
     display: inline-block;
-    padding-right: 15px;
+    padding: 20px; 
 }
 
 .header li {
@@ -33,18 +33,28 @@
     padding-right: 20px;
     font-size: 18px;
     text-align: center;
-   
-    padding: 10px;
-    border: 2px;
+    color: #fff;
+    background-color: #F8F32B;
+    border-top: 1px solid #8D99AE;
+    border-bottom: 1px solid #000;
     border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 .faixa {
-    background-color: #df5454;
-    width: 70%;
     margin: auto;
     padding: 50px;
-    color: white;
-    font-size: 30px;
+    color: #1D3354;
+    font-size: 20px;
     text-align: center;
+}
+.photo {
+   width: 100%; 
+}
+
+.photo img {
+    width: 250px;
+    margin-bottom: 30px;
+    margin: 10px auto;
 }
